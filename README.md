@@ -1,12 +1,8 @@
-# ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Credit Card Customer Churn Analysis
 
-## Template Instructions
+## Overview
 
-Welcome,
-
-This is the Code Institute student template for the Data Analytics capstone project. We have preinstalled all of the tools you need to get started. It's perfectly okay to use this template as the basis for your project submissions. Click the `Use this template` button above to get started.
-
-You can safely delete the Template Instructions section of this README.md file and modify the remaining paragraphs for your own project. Please do read the Template Instructions at least once, though! It contains some important information about the IDE and the extensions we use.
+This project involves data exploration, cleaning, analysis, and visualization using the Credit Card Customer dataset. It aims to understand customer churn behavior, identify key factors influencing churn, and extract insights that can inform customer retention strategies and improve business decision-making.
 
 ## How to use this repo
 
