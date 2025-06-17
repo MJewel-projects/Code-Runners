@@ -58,4 +58,5 @@ Why did you choose the research methodologies you used?
 ## The rationale to map the business requirements to the Data Visualisations
 List your business requirements and a rationale to map them to the Data Visualisations £££
 
+## Analysis techniques used
 
