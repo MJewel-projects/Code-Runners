@@ -55,21 +55,18 @@ To guide the analysis, the following hypotheses were formed based on domain know
 
 1. **Extract**
 
-   * Import the Data into VS code.
-   * mport required libraries (pandas, numpy, matplotlib, seaborn, sklearn)
+    * Import the Data into VS code.
+    * mport required libraries (pandas, numpy, matplotlib, seaborn, sklearn)
  
  2. **Transform:  Data Cleaning:**
 
-   * Drop irrelevant or identifier columns (e.g., CLIENTNUM).
-
-   * Handle missing values.
-
-   * Rename columns for readability if needed.
-
+    * Drop irrelevant or identifier columns (e.g., CLIENTNUM).
+    * Handle missing values.
+    * Rename columns for readability if needed.
+    
 3. **Exploratory Data Analysis (EDA):**
 
    * Visualize churn distribution, correlations, demographics.
-
    * Use plots like bar charts, Pie Chart and Histogram.
 
 4. **Load(for Analysis)**
@@ -78,14 +75,12 @@ To guide the analysis, the following hypotheses were formed based on domain know
    * From local machine import the Data to Tableau. 
    * Use Tableau analytical feature to create Pie Chart, Bar Chart and histogram to exmaine relationship between churned customers and their education, income, sex, and age.
 
-
 5. **Interpretation**
    
     * Interpret the Data Charts. 
-    * Explain demographics of the customers are likely to churn.  
-    * Find the demographics (age,income, sex, and education) existing customer. 
+    * Explain  the attrition distribution among genders.
+    * Expaalin  the attrition rate by age,income and age.
     * Demonstrate the methodology used to interpret the cleaned data set. 
-
 
 ## The rationale to map the business requirements to the Data Visualisations
 
