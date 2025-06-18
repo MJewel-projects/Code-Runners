@@ -53,59 +53,38 @@ To guide the analysis, the following hypotheses were formed based on domain know
 
 --Outline the high-level steps taken for the analysis: 
 
-1. Extract
+1. **Extract**
 
- -Open VS Code and activate a virtual environment
- -Import required libraries (pandas, numpy, matplotlib, seaborn, sklearn)
- -Load the dataset using: 
- import pandas as pd
-df = pd.read_csv('path/to/BankChurners.csv')
+   * Import the Data into VS code.
+   * mport required libraries (pandas, numpy, matplotlib, seaborn, sklearn)
+ 
+ 2. **Transform:  Data Cleaning:**
 
- 2. Transform
+   * Drop irrelevant or identifier columns (e.g., CLIENTNUM).
 
--Clean the data:
+   * Handle missing values.
 
-Drop irrelevant or identifier columns (e.g., CLIENTNUM).
+   * Rename columns for readability if needed.
 
-Handle missing values (though this dataset is usually clean).
+3. **Exploratory Data Analysis (EDA):**
 
-Rename columns for readability if needed.
+   * Visualize churn distribution, correlations, demographics.
 
-Feature Engineering:
+   * Use plots like bar charts, Pie Chart and Histogram.
 
-Convert categorical variables using encoding (e.g., pd.get_dummies() or LabelEncoder).
+4. **Load(for Analysis)**
+
+   * After transformation, the cleaned DataFrame is saved to be pushed to Github.
+   * From local machine import the Data to Tableau. 
+   * Use Tableau analytical feature to create Pie Chart, Bar Chart and histogram to exmaine relationship between churned customers and their education, income, sex, and age.
 
 
-Exploratory Data Analysis (EDA):
-
-Visualize churn distribution, correlations, demographics.
-
-Use plots like bar charts, boxplots, heatmaps, etc.
-
-3. Load(for Analysis)
-
--After transformation, the cleaned DataFrame is saved to be pushed to Github
-
-How was the data managed throughout the collection, processing, analysis and interpretation steps? 
-
-Step___________|___________Description
-Collection	               The data was pre-collected and provided in CSV format, avoiding collection biases.
-Processing	               Handled in VS Code using pandas. Involved removing unused columns, dealing with types, coding  
-                           categorical values, and normalizing.
-Analysis	                  Exploratory Data Analysis to uncover patterns, trends, and relationships. Followed by building
-                           models (e.g., logistic regression, decision trees) to predict churn.
-Interpretation	            Model evaluation (accuracy, recall, precision) and graphical summaries helped interpret the 
-                           effect of features on churn.
-
---Why did you choose the research methodologies you used? 
-
--Quantitative Analysis: The dataset is numeric-heavy and allows for statistical, measurable patterns.
-
--Descriptive Statistics & Visualization: Help understand the structure and spot outliers/trends before modeling.
-
--Reproducibility: Using Python in VS Code ensures the process is well-documented, modular, and repeatable.
-
--Efficiency: VS Code supports powerful extensions (e.g., Jupyter Notebooks, Linting, Git) that accelerate development and collaboration.
+5. **Interpretation**
+   
+    * Interpret the Data Charts. 
+    * Explain demographics of the customers are likely to churn.  
+    * Find the demographics (age,income, sex, and education) existing customer. 
+    * Demonstrate the methodology used to interpret the cleaned data set. 
 
 
 ## The rationale to map the business requirements to the Data Visualisations
