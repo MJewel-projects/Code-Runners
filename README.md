@@ -78,8 +78,8 @@ To guide the analysis, the following hypotheses were formed based on domain know
 5. **Interpretation**
    
     * Interpret the Data Charts. 
-    * Explain demographics of the customers are likely to churn.  
-    * Find the demographics (age,income, sex, and education) existing customer. 
+    * Explain  the attrition distribution among genders.
+    * Expaalin  the attrition rate by age,income and age.
     * Demonstrate the methodology used to interpret the cleaned data set. 
 
 ## The rationale to map the business requirements to the Data Visualisations
