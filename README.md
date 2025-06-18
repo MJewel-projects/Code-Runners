@@ -2,15 +2,26 @@
 
 # Overview
 
-This project involves data exploration, cleaning, analysis, and visualization using the Credit Card Customer dataset. It aims to understand customer churn behavior, identify key factors influencing churn, and extract insights that can inform customer retention strategies and improve business decision-making.
+This project involves data exploration, cleaning, analysis, and visualisation using the Credit Card Customer dataset. It aims to understand customer churn behaviour, identify key factors influencing churn, and extract insights that can inform customer retention strategies and improve business decision-making.
 
-## Mapping business goals to the Data Visualisations
+## Business Map for Visualisation
 
-The first visualization uses a pie chart to represent customer attrition rates, providing a clear overview of the problem's scale. This helps the business assess whether allocating resources to address attrition is a worthwhile investment
+**1. Pie Chart: Customer Attrition Rates**
 
-The second visualization is a histogram displaying the age distribution alongside churn rates, enabling the bank to evaluate if specific age groups should be prioritized in future marketing strategies
-
-The third chart is a stacked bar graph that compares attrition rates by gender. This insight can guide the bank in refining its marketing efforts toward either male or female customers, depending on observed trends
+  *Shows the proportion of attrited (16.07%) vs. existing (83.93%) customers.
+  *Business Value: Highlights the scale of churn ((1,627 attrited out of 10,127 total users), aiding decisions on resource allocation for retention strategies.
+**2. Histogram: Age Distribution with Churn Rates**
+  *Displays age group distribution (e.g., 25–70) with attrited vs. existing customers overlaid.
+  *Business Value: Identifies high-churn age segments to target with tailored marketing campaigns.
+**3. Stacked Bar Chart: Churn by Income Category**
+  *Compares churn rates across income brackets (e.g., <$40K to >$120K) with attrited vs. existing customers.
+  *Business Value: Guides gender-specific marketing adjustments based on churn trends.
+**4. Bar Charts: Churn Rate by Gender and Age**
+   *Compares churn rates for females and males across age groups (e.g., 25–70), with side-by-side bars.
+   *Business Value: Highlights gender-specific trends (e.g., females at 40–55 with 18% churn vs. males at 11%), enabling gender-targeted marketing adjustments.
+**5. KPI Cards: Key Metrics**
+   *Displays total users (10,127), churn rate (16%), average tenure (36 months), median age (46), and average user balance ($1,163).
+   *Business Value: Provides a quick executive summary to assess overall customer health, tenure trends, and financial engagement, supporting strategic planning.
 
 ## Dataset Content
 
@@ -24,7 +35,7 @@ Key columns include:
  - `Attrition_Flag`: Churn status (e.g., Existing Customer, Attrited Customer)
  - `Customer_Age`, `Gender`, `Dependent_count`: Demographic information
  - `Education_Level`, `Marital_Status`, `Income_Category`, `Credit_Limit`, `Total_Trans_Ct`, `Total_Revolving_Bal`: Account usage
- - `Months_on_book`, `Avg_Utilization_Ratio`: Customer tenure and credit behavior
+ - `Months_on_book`, `Avg_Utilization_Ratio`: Customer tenure and credit behaviour
 
 ## Business Requirements
 The primary business goal is to identify factors that influence customer churn and use those insights to support customer retention strategies. Reducing churn can lead to increased customer lifetime value and lower acquisition costs.
@@ -40,7 +51,7 @@ The primary business goal is to identify factors that influence customer churn a
    Provide actionable insights that can inform marketing campaigns, product offers, and personalized communication.
 
 4. **Improve resource allocation**  
-   Help the business prioritize customer outreach efforts and design loyalty programs based on churn risk.
+   Help the business prioritise customer outreach efforts and design loyalty programs based on churn risk.
 
 ## Hypothesis and and Validation
 To guide the analysis, the following hypotheses were formed based on domain knowledge and assumptions. Each will be validated through visual analysis using Tableau:
@@ -59,23 +70,21 @@ To guide the analysis, the following hypotheses were formed based on domain know
 
 ## Project Plan
 
---Outline the high-level steps taken for the analysis: 
-
 1. **Extract**
 
     * Import the Data into VS code.
-    * mport required libraries (pandas, numpy, matplotlib, seaborn, sklearn)
+    * Import required libraries (pandas & numpy)
  
  2. **Transform:  Data Cleaning:**
 
-    * Drop irrelevant or identifier columns (e.g., CLIENTNUM).
+    * Drop irrelevant or identifier columns.
     * Handle missing values.
-    * Rename columns for readability if needed.
+    * Rename columns for readability.
     
 3. **Exploratory Data Analysis (EDA):**
 
-   * Visualize churn distribution, correlations, demographics.
-   * Use plots like bar charts, Pie Chart and Histogram.
+   * Visualise churn distribution, correlations, demographics.
+   * Use plots like bar chart, Pie Chart and Histogram.
 
 4. **Load(for Analysis)**
 
@@ -87,7 +96,7 @@ To guide the analysis, the following hypotheses were formed based on domain know
    
     * Interpret the Data Charts. 
     * Explain  the attrition distribution among genders.
-    * Expalin  the attrition rate by age,income and age.
+    * Explain  the attrition rate by age,income and age.
     * Demonstrate the methodology used to interpret the cleaned data set. 
 
 ## Analysis techniques used
@@ -106,6 +115,7 @@ To guide the analysis, the following hypotheses were formed based on domain know
 ## Dashboard Design
 
 This project involves the creation of a data-driven, interactive dashboard using Tableau. The goal is to analyze customer churn behavior in the credit card industry. This project helps identify key patterns and metrics associated with churn, providing insights for business decision-making and retention strategies.
+You can view the Dashboard [HERE](https://public.tableau.com/app/profile/ivy.kepiro/viz/CreditCardCustomerChurnAnalysis_17502543802840/Dashboard1)
 
 ## Ethical considerations
 
@@ -116,11 +126,4 @@ Financial data is highly sensitive and requires compliance to GDPR and other reg
 The Code Institute Learning Management System modules on pandas and data visualisations with Matplotlib,Seaborn and Plotly
 Chat GPT and Microsoft Copilot integrated into Visual Studio Code was used to help with code generation and debugging
 Team efforts from Ivy Kepiro, Mohammad Jewel and Chris Agyemang
-
-
-
-
-
-
-
 
