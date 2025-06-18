@@ -4,6 +4,16 @@
 
 This project involves data exploration, cleaning, analysis, and visualization using the Credit Card Customer dataset. It aims to understand customer churn behavior, identify key factors influencing churn, and extract insights that can inform customer retention strategies and improve business decision-making.
 
+## Mapping business goals to the Data Visualisations
+
+The first visualization uses a pie chart to represent customer attrition rates, providing a clear overview of the problem's scale. This helps the business assess whether allocating resources to address attrition is a worthwhile investment
+
+The second visualization is a histogram displaying the age distribution alongside churn rates, enabling the bank to evaluate if specific age groups should be prioritized in future marketing strategies
+
+The third chart is a stacked bar graph that compares attrition rates by gender. This insight can guide the bank in refining its marketing efforts toward either male or female customers, depending on observed trends
+
+
+
 ## Dataset Content
 
 This project uses the Credit Card Customer Churn dataset from Kaggle:
@@ -79,40 +89,30 @@ To guide the analysis, the following hypotheses were formed based on domain know
    
     * Interpret the Data Charts. 
     * Explain  the attrition distribution among genders.
-    * Expaalin  the attrition rate by age,income and age.
+    * Expalin  the attrition rate by age,income and age.
     * Demonstrate the methodology used to interpret the cleaned data set. 
 
-## The rationale to map the business requirements to the Data Visualisations
-
-The first visualization uses a pie chart to represent customer attrition rates, providing a clear overview of the problem's scale. This helps the business assess whether allocating resources to address attrition is a worthwhile investment
-
-The second visualization is a histogram displaying the age distribution alongside churn rates, enabling the bank to evaluate if specific age groups should be prioritized in future marketing strategies
-
-The third chart is a stacked bar graph that compares attrition rates by gender. This insight can guide the bank in refining its marketing efforts toward either male or female customers, depending on observed trends
-
-Lastly, a scatter plot illustrates the relationship between attrition and gender in relation to both "months on the books" and total transaction amounts. This type of analysis offers various strategic insights—for instance, understanding how customer tenure or spending habits relate to churn can inform the development of targeted perks or retention strategies for both new and long-standing clients
 
 ## Analysis techniques used
 
--Extract Transform load pipeline with data cleaning in Jupyter notebooks.
--Visualisations: pie chart, histogram, bar chart and scatter plot
+  * Extract Transform load pipeline with data cleaning in Jupyter notebooks.
+  * Used appropriate function to fill missing values, remove duplication  and outliners. 
 
-## Ethical considerations
+## Main Data Analysis Libraries
+  * Pandas
+  * Numpy
 
-Financial data is highly sensitive and requires compliance to GDPR and other regulations, in order to protect sensitive infomation I have anonymised the data by removing client numbers
+## Visualisations:
+  * Tableau is used to visualised the data.
+  * pie chart, histogram,  and bar chart is used to describe the data. 
 
 ## Dashboard Design
 
 This project involves the creation of a data-driven, interactive dashboard using Tableau. The goal is to analyze customer churn behavior in the credit card industry. This project helps identify key patterns and metrics associated with churn, providing insights for business decision-making and retention strategies.
 
+## Ethical considerations
 
-## Main Data Analysis Libraries
-
--Pandas
--Numpy
--Plotly
--Seabon
--Matplotlib
+Financial data is highly sensitive and requires compliance to GDPR and other regulations, in order to protect sensitive infomation I have anonymised the data by removing client numbers
 
 ## Credits
 
