@@ -95,14 +95,14 @@ To guide the analysis, the following hypotheses were formed based on domain know
 5. **Interpretation**
    
     * Interpret the Data Charts. 
-    * Explain the attrition distribution among genders.
-    * Explain the attrition rate by age,income and age.
+    * Explain  the attrition distribution among genders.
+    * Explain  the attrition rate by age,income and age.
     * Demonstrate the methodology used to interpret the cleaned data set. 
 
 ## Analysis techniques used
 
   * Extract Transform load pipeline with data cleaning in Jupyter notebooks.
-  * Used appropriate function to fill missing values, remove duplication and outliners. 
+  * Used appropriate function to fill missing values, remove duplication  and outliners. 
 
 ## Main Data Analysis Libraries
   * Pandas
@@ -110,7 +110,7 @@ To guide the analysis, the following hypotheses were formed based on domain know
 
 ## Visualisations:
   * Tableau is used to visualised the data.
-  * pie chart, histogram, and bar chart is used to describe the data. 
+  * pie chart, histogram,  and bar chart is used to describe the data. 
 
 ## Dashboard Design
 
@@ -126,11 +126,4 @@ Financial data is highly sensitive and requires compliance to GDPR and other reg
 The Code Institute Learning Management System modules on pandas and data visualisations with Matplotlib,Seaborn and Plotly
 Chat GPT and Microsoft Copilot integrated into Visual Studio Code was used to help with code generation and debugging
 Team efforts from Ivy Kepiro, Mohammad Jewel and Chris Agyemang
-
-
-
-
-
-
-
 
