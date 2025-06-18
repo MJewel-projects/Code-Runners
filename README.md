@@ -63,7 +63,7 @@ To guide the analysis, the following hypotheses were formed based on domain know
     * Drop irrelevant or identifier columns (e.g., CLIENTNUM).
     * Handle missing values.
     * Rename columns for readability if needed.
-
+    
 3. **Exploratory Data Analysis (EDA):**
 
    * Visualize churn distribution, correlations, demographics.
