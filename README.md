@@ -117,3 +117,10 @@ The Code Institute Learning Management System modules on pandas and data visuali
 Chat GPT and Microsoft Copilot integrated into Visual Studio Code was used to help with code generation and debugging
 Team efforts from Ivy Kepiro, Mohammad Jewel and Chris Agyemang
 
+
+
+
+
+
+
+
