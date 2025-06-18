@@ -129,8 +129,7 @@ Financial data is highly sensitive and requires compliance to GDPR and other reg
 
 ## Dashboard Design
 
-## Development Roadmap
-What challenges did you face, and what strategies were used to overcome these challenges?
+This project involves the creation of a data-driven, interactive dashboard using Tableau. The goal is to analyze customer churn behavior in the credit card industry. This project helps identify key patterns and metrics associated with churn, providing insights for business decision-making and retention strategies.
 
 
 ## Main Data Analysis Libraries
