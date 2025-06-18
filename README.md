@@ -12,8 +12,6 @@ The second visualization is a histogram displaying the age distribution alongsid
 
 The third chart is a stacked bar graph that compares attrition rates by gender. This insight can guide the bank in refining its marketing efforts toward either male or female customers, depending on observed trends
 
-
-
 ## Dataset Content
 
 This project uses the Credit Card Customer Churn dataset from Kaggle:
@@ -119,4 +117,7 @@ Financial data is highly sensitive and requires compliance to GDPR and other reg
 The Code Institute Learning Management System modules on pandas and data visualisations with Matplotlib,Seaborn and Plotly
 Chat GPT and Microsoft Copilot integrated into Visual Studio Code was used to help with code generation and debugging
 Team efforts from Ivy Kepiro, Mohammad Jewel and Chris Agyemang
+
+
+
 
