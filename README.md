@@ -1,6 +1,6 @@
 # Credit Card Customer Churn Analysis
 
-## Overview
+# Overview
 
 This project involves data exploration, cleaning, analysis, and visualization using the Credit Card Customer dataset. It aims to understand customer churn behavior, identify key factors influencing churn, and extract insights that can inform customer retention strategies and improve business decision-making.
 
@@ -90,7 +90,6 @@ To guide the analysis, the following hypotheses were formed based on domain know
     * Expalin  the attrition rate by age,income and age.
     * Demonstrate the methodology used to interpret the cleaned data set. 
 
-
 ## Analysis techniques used
 
   * Extract Transform load pipeline with data cleaning in Jupyter notebooks.
@@ -117,7 +116,4 @@ Financial data is highly sensitive and requires compliance to GDPR and other reg
 The Code Institute Learning Management System modules on pandas and data visualisations with Matplotlib,Seaborn and Plotly
 Chat GPT and Microsoft Copilot integrated into Visual Studio Code was used to help with code generation and debugging
 Team efforts from Ivy Kepiro, Mohammad Jewel and Chris Agyemang
-
-
-
 
