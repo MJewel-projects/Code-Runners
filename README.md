@@ -7,25 +7,29 @@ This project involves data exploration, cleaning, analysis, and visualisation us
 ## Business Map for Visualisation
 
 **1. Pie Chart: Customer Attrition Rates**
-
-  *Shows the proportion of attrited (16.07%) vs. existing (83.93%) customers.
-  *Business Value: Highlights the scale of churn ((1,627 attrited out of 10,127 total users), aiding decisions on resource allocation for retention strategies.
+ 
+  * Shows the proportion of attrited (16.07%) vs. existing (83.93%) customers.
+  * Business Value: Highlights the scale of churn ((1,627 attrited out of 10,127 total users), aiding decisions on resource allocation for retention strategies.
 
 **2. Histogram: Age Distribution with Churn Rates**
-  *Displays age group distribution (e.g., 25–70) with attrited vs. existing customers overlaid.
-  *Business Value: Identifies high-churn age segments to target with tailored marketing campaigns.
+
+  * Displays age group distribution (e.g., 25–70) with attrited vs. existing customers overlaid.
+  * Business Value: Identifies high-churn age segments to target with tailored marketing campaigns.
 
 **3. Stacked Bar Chart: Churn by Income Category**
-  *Compares churn rates across income brackets (e.g., <$40K to >$120K) with attrited vs. existing customers.
-  *Business Value: Guides gender-specific marketing adjustments based on churn trends.
+
+  * Compares churn rates across income brackets (e.g., <$40K to >$120K) with attrited vs. existing customers.
+  * Business Value: Guides gender-specific marketing adjustments based on churn trends.
 
 **4. Bar Charts: Churn Rate by Gender and Age**
-   *Compares churn rates for females and males across age groups (e.g., 25–70), with side-by-side bars.
-   *Business Value: Highlights gender-specific trends (e.g., females at 40–55 with 18% churn vs. males at 11%), enabling gender-targeted marketing adjustments.
-   
+
+   * Compares churn rates for females and males across age groups (e.g., 25–70), with side-by-side bars.
+   * Business Value: Highlights gender-specific trends (e.g., females at 40–55 with 18% churn vs. males at 11%), enabling gender-targeted marketing  adjustments.
+
 **5. KPI Cards: Key Metrics**
-   *Displays total users (10,127), churn rate (16%), average tenure (36 months), median age (46), and average user balance ($1,163).
-   *Business Value: Provides a quick executive summary to assess overall customer health, tenure trends, and financial engagement, supporting strategic planning.
+
+   * Displays total users (10,127), churn rate (16%), average tenure (36 months), median age (46), and average user balance ($1,163).
+   * Business Value: Provides a quick executive summary to assess overall customer health, tenure trends, and financial engagement, supporting strategic planning.
 
 ## Dataset Content
 
@@ -127,7 +131,6 @@ Financial data is highly sensitive and requires compliance to GDPR and other reg
 
 ## Credits
 
-The Code Institute Learning Management System modules on pandas and data visualisations with Matplotlib,Seaborn and Plotly
-Chat GPT and Microsoft Copilot integrated into Visual Studio Code was used to help with code generation and debugging
-Team efforts from Ivy Kepiro, Mohammad Jewel and Chris Agyemang
+The Code Institute Learning Management System modules on pandas and data visualisations with Jupyter notebook and Tableau.
+Different AI tolls and Visual Studio Code were used to help with code generation and debugging. Team efforts from Ivy Kepiro, Mohammad Jewel and Chris Agyemang
 
